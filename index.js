@@ -1,4 +1,6 @@
 let label = document.getElementById('paco');
+
 function saludar() {
-    label.innerHTML = '<strong>Paco: </strong>Hola Manolo';
+    const texto = document.getElementById('text').value;
+    label.innerHTML = `<strong>Paco: </strong>${texto}`;
 }
